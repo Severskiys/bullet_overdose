@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c062b1c2342aab4ba2cbf8f5a25172f, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  PlayerData:
+    StartMoney: 0
+    HitPoints: 100
+    Damage: 25
+    BulletsInMagazine: 25
+    ReloadTime: 1.5
+    ShotTime: 0.1
+    ShotCooldown: 0.2
+    ShotsCountInBurst: 3
+  AimData:
+    XBorderMax: 3
+    XBorderMin: -3
+    YBorderMax: 6
+    YBorderMin: -1
+    StartLocalPos: {x: 0, y: 1.5, z: 2}
+    DefaultSpeed: 20
+    XSpeedModifier: 1.5
+    YSpeedModifier: 1.25
+  RoadData:
+    BaseSpeed: 0.2
+    FastSpeed: 0.5
+    SlowSpeed: 0.1
+    RoadPieceLength: 10
+    PieceCount: 25
+  EnemiesCount: 15
